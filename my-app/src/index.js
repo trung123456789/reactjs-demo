@@ -1,8 +1,7 @@
 import ReactDOM from 'react-dom';
-import Game from './components/GameComponent';
+import Root from './components/Root';
+import store from './store/index'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
-ReactDOM.render(
-    <Game />,
-    document.getElementById('root')
-);
+ReactDOM.render(<Root store={store} />, document.getElementById('root'));

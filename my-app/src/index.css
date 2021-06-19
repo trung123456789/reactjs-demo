@@ -48,3 +48,12 @@ ol, ul {
 .game-info {
     margin-left: 20px;
 }
+
+.header-login {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.msg-error {
+    color: red;
+}
